@@ -14,7 +14,7 @@ const job1 = {
 };
 const job2 = {
   color: "blue",
-  title: "BB",
+  title: "BBded",
   contractType: "CDD",
   country: "USA",
   city: "NYC",

@@ -3,7 +3,7 @@
 // };
 
 const Header = (props) => {
-  return <h1 class="header">{props.mainTitle}</h1>;
+  return <h1 className="header">{props.mainTitle}</h1>;
 };
 
 export default Header;

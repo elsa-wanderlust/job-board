@@ -91,7 +91,10 @@ span {
 }
 
 /* ----- RESPONSIVE ----- */
-@media (max-width: 824px) {
+@media (max-width: 1172px) {
+  .container {
+    width: fit-content;
+  }
   .jobBox {
     justify-content: center;
   }
