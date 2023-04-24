@@ -1,0 +1,91 @@
+/* ----- GENERAL ----- */
+
+.page {
+  width: 100vw;
+  height: 100%;
+  background-color: rgb(160, 166, 221);
+  border: 1px red solid;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  /* TBD why border box doesnt apply to header? */
+}
+
+.container {
+  max-width: 1135px;
+  height: fit-content;
+  background-color: white;
+  border: 2px purple solid;
+  display: flex;
+  flex-direction: column;
+  margin: 35px 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+H2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* ----- HEADERS ----- */
+
+.header {
+  height: 60px;
+  background-color: black;
+  color: white;
+  /* border: 3px blue solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----- JOBS ----- */
+.jobBox {
+  /* border: 2px green solid; */
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  padding: 25px 55px;
+}
+
+.jobBox > div {
+  box-sizing: border-box;
+  /* border: 2px darkgoldenrod solid; */
+  width: 332px;
+  /* width: calc((100% - 20px) / 3); */
+  aspect-ratio: 1 /1;
+  padding: 7px;
+}
+
+.job {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.red {
+  border: 2px red solid;
+}
+.blue {
+  border: 2px blue solid;
+}
+
+/* ----- FOOTER ----- */
+.footer {
+  height: 60px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
